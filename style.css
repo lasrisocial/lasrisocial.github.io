@@ -183,7 +183,8 @@
             }
 
             code,kbd,pre,samp {
-                font-family: SFMono-Regular,Menlo,Monaco,Consolas,quot;Liberation &Mono,quot; quot ;Courier ,Newquot; monospace;
+                font-family: SFMono-Regular,Menlo,Monaco,Consolas,&quot;
+                Liberation Mono&quot;,&quot;Courier New&quot;,monospace;
                 font-size: 1em;
                 direction: ltr;
                 unicode-bidi: bidi-override;
@@ -209,7 +210,7 @@
                 word-wrap: break-word
             }
 
-            a,gt,code {
+            a,gt;code {
                 color: inherit
             }
 
